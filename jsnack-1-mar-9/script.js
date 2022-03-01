@@ -20,7 +20,8 @@ for(let i = 0; i < 10; i++ ){
 
     let randomName = nomi.at(Math.floor(Math.random() *  nomi.length));
     let randomSurname = cognomi.at(Math.floor(Math.random() *  cognomi.length));
-    falseList.push(randomName+ " " + randomSurname);
+    
+    falseList.push(randomName  + " " + randomSurname);
 
 }
 
